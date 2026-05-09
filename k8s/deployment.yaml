@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: python-image-demo
+  namespace: my-app
   labels:
     app: python-image-demo
 spec:
