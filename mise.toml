@@ -1,0 +1,5 @@
+[tools]
+python = "latest"
+
+[env]
+KUBECONFIG="/Users/iq/dev/k8s/vps/kubeconfig.yaml"
