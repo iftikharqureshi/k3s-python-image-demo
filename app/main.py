@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return """
-    <h1>k3s Python Image Demo</h1>
+    <h1>k3s Python Image Demo v2</h1>
     <p>Try <a href="/image">/image</a></p>
     """
 
